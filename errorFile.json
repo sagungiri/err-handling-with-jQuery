@@ -1,0 +1,8 @@
+[{"message":"The given data is invalid.,", 
+    "errors":{"fullName":["Please Enter Valid Name"],
+        "email":["Invalid Email Id"],
+        "phone_no":["PLease Enter Valid Phone Number"],
+        "password":["Please Enter valid Password"],
+        "verifyPassword":["Password doesn't Match"]
+    }  
+}]

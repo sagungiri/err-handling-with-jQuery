@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+        <form id="theForm" method="POST" action="submitData" >
+           FullName: <input type="text" name="fullName" placeholder="FullName">
+            Email: <input type="email" name="email" placeholder="Email">
+           <hr> Phone Number: <input type="number" name="phone_no" placeholder="Phone Number">
+            Password: <input type="password" name="password" placeholder="Password"></hr><hr>
+           Verify Password:  <input type="password" name="password" placeholder="Verify Password"></hr>
+            <hr><input type="submit" class="btn btn-primary btn-sm" value="Submit">
+
+        </form>
+
+        <div class="bg-modal">
+                <div class="modal-content">
+                  <div class="close">+</div>
+          
+                </div>
+              </div>
+
+<script type="text/javascript" src="xhr.js"></script>
+</body>
+</html>
